@@ -26,6 +26,9 @@ Surprisingly, or unsurprisingly, gradient signal from a NN isn't good enough in 
 
 Even though it learns energy, our model has shares almost no similarity with energy models. Instead, it is much more simliar to score-based models. 
 
+## Energy
+In traditional energy based models, energy directly modeled distribution, i.e. $\rho = Ce^{-E}$. In our model, data are source of energy, not the energy itself - $\rho = \nabla^2 E$. 
+
 ## Learning
 As there's one auxillary dimension in PFGM and our proposal, we essential learn smoothed version of energy at the same time, similar to score-based models.
 
