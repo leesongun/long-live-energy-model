@@ -36,5 +36,5 @@ As there's one auxillary dimension in PFGM and our proposal, we essential learn 
 Similar to, and even simpler than, to score based models, we sample just by following steepest gradient, It is guaranteed to converge to original distribution in the ideal case, due to the auxillary dimension. (See PFGM paper)
 
 # To explore
-1. Actually testing it
+1. Hyperbolic latent space
 2. Replacing $U(1)$ with other groups - this simply started as a joke, but [tangent bundle looks possible](https://arxiv.org/abs/2112.07068)
